@@ -1,8 +1,8 @@
 pragma solidity ^0.8.1;
 
-import "https://github.com/Nnamdichukwu/flashloan/blob/main/UniswapV2Router01.sol";
+import "https://github.com/Nnamdichukwu/flashloan/blob/main/IUniswapV2Router01.sol";
 
-abstract contract IUniswapV2Router02 is UniswapV2Router01 {
+abstract contract IUniswapV2Router02 is IUniswapV2Router01 {
     function removeLiquidityETHSupportingFeeOnTransferTokens(
         address token,
         uint liquidity,
